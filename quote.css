@@ -1,42 +1,45 @@
 body{
-	background-image: url("vegas.jpg");
+	background-image: url("lasbw.jpg");
 	margin: 0;
     padding: 0;
     text-align: center; /* !!! */
     font-family: "Proxima Nova";
+    color: #1e698d;
 }
 #outPopup {
   margin: 0 auto;
-  margin-top: 250px;
+  margin-top: 150px;
+  padding: 10px;
     text-align: center;
     width: 450px;
- 	background-color: black;
-    border: 2px solid #e3472e;
+    background-color: #131925;
+    border: 2px solid #1e698d;
     border-radius: 4px;
 }
+
 h1{
-	color: #e3472e;
+	color: #1e698d;
+	font-size: 50px;
 }
 form{
 	font-weight: bold;
 	font-size: 25px;
-	color: #e3472e;
 }
 input[type=text] {
     width: 50%;
     padding: 12px 12px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 2px solid #e3472e;
+    border: 2px solid white;
     border-radius: 4px;
 }
 input[type=submit] {
     background-color: #fac303;
-    border: none;
     color: white;
     padding: 16px 32px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
     font-size: 20px;
+    border-radius: 8px;
 }
