@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>  
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="quotephp.css">
 </head>
 <body>  
 
+<div id="outPopup">
 <?php
-// define variables and set to empty values
   $name = $email = $gender = $comment = $website = "";
 
   if ($_SERVER["REQUEST_METHOD"] == "GET") {
@@ -18,24 +19,12 @@
       
       echo "The quote is ".($x+1)." : $myfile[$rand] <br>";
   } 
-
   }
 ?>
-
 <form action="quote.html">
     <input type="submit" value="BACK">
 </form>
-
-
-<!-- <h2>PHP Form Validation Example</h2>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Name: <input type="text" name="name">
-  <br><br>
- 
-  <input type="submit" name="submit" value="Submit">  
-</form> -->
-
-
+</div>
 
 </body>
 </html>
